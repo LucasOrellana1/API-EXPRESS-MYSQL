@@ -1,4 +1,5 @@
-import { MovieModel } from '../models/movie.js';
+//import { MovieModel } from '../models/movies.js';
+import { MovieModel } from '../../class 5/models/MySQL/movies.js';
 import { validateMovie, validatePartialMovie } from '../schemas/movies.js';
 
 export class MoviesController {
